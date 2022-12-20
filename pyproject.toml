@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hw1"
+version = "0.1.0"
+description = "bootstrap function"
+authors = ["Ekaterina Malikova <malikovaek1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.0"
+pandas = "^1.5.2"
+scipy = "^1.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
